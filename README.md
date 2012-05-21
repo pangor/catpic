@@ -16,7 +16,6 @@ Then `#import` it:
 
 Then create some widgets:
 
-    :::dart
     new Catpic(0);
 
 The number identifies which cute kitten you want. Try different ones to see which one captures your heart!
