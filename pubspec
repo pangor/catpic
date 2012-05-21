@@ -1,0 +1,5 @@
+dependencies:
+  kittens:
+    git: git://github.com/munificent/kittens.git
+  widget:
+    git: https://bitbucket.org/munificent/widget.git
