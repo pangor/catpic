@@ -4,7 +4,7 @@ Are you using the awesome [widgets](https://bitbucket.org/munificent/widget) lib
 
 ## Usage
 
-Add catpic to your `pubspec` like so:
+Add catpic to your pubspec like so:
 
     dependencies:
       catpic:
