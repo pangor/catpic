@@ -1,3 +1,4 @@
+name: catpic
 dependencies:
   kittens:
     git: git://github.com/munificent/kittens.git
