@@ -1,6 +1,6 @@
 name: catpic
 dependencies:
   kittens:
-    git: git://github.com/munificent/kittens.git
+    git: git://github.com/sethladd/kittens.git
   widget:
-    git: https://bitbucket.org/munificent/widget.git
+    git: https://bitbucket.org/sethladd/widget.git

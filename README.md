@@ -1,6 +1,9 @@
 ## About
 
-Are you using the awesome [widgets](https://bitbucket.org/munificent/widget) library? Do you like pictures of cats? If so, then this is the package for you. It provides a `Catpic` widget that will show a picture of a cute kitten. YOUR LIFE IS COMPLETE NOW.
+Are you using the awesome [widgets](https://bitbucket.org/munificent/widget)
+library? Do you like pictures of cats? If so, then this is the package for you.
+It provides a `Catpic` widget that will show a picture of a cute kitten. YOUR
+LIFE IS COMPLETE NOW.
 
 ## Usage
 
@@ -18,4 +21,5 @@ Then create some widgets:
 
     new Catpic(0);
 
-The number identifies which cute kitten you want. Try different ones to see which one captures your heart!
+The number identifies which cute kitten you want. Try different ones to see
+which one captures your heart!
