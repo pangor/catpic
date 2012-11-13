@@ -1,4 +1,5 @@
 name: catpic
+version: 0.0.1
 dependencies:
   kittens:
     git: git://github.com/sethladd/kittens.git
