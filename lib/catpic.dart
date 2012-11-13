@@ -3,12 +3,12 @@
 // BSD-style license that can be found in the LICENSE file.
 
 /** Widgets with pictures of kittens. */
-#library('catpic');
+library 'catpic';
 
-#import('dart:html');
+import 'dart:html';
 
-#import('package:kittens/kittens.dart');
-#import('package:widget/widget.dart');
+import 'package:kittens/kittens.dart';
+import 'package:widget/widget.dart';
 
 class Catpic extends Widget {
   final String _url;
