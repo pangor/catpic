@@ -1,6 +1,4 @@
 name: catpic
 version: 2.0.0
 dependencies:
-  kittens:
-    git: git://github.com/sethladd/kittens.git
   web_ui: any

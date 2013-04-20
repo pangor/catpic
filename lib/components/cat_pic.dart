@@ -11,11 +11,17 @@ import 'package:kittens/kittens.dart';
 
 class Catpic extends WebComponent {
   int _kitten;
+  const int numPics = 4;
   
   void set kitten(String number) {
     _kitten = int.parse(number);
-    attributes['src'] = getKitten(_kitten % numKittens);
+    attributes['src'] = _url;
   }
   
   String get kitten => _kitten.toString();
+  
+  String get _url {
+    int index = _kitten % num;
+    return 'packages/catpic/imgs/kitten-$index.jpg';
+  }
 }
