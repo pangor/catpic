@@ -7,7 +7,6 @@ library catpic;
 
 import 'dart:html';
 import 'package:web_ui/web_ui.dart';
-import 'package:kittens/kittens.dart';
 
 class Catpic extends WebComponent {
   int _kitten;
