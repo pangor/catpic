@@ -21,6 +21,6 @@ class Catpic extends WebComponent {
   
   String get _url {
     int index = _kitten % numPics;
-    return 'packages/catpic/imgs/kitten-$index.jpg';
+    return 'packages/catpic/assets/imgs/kitten-$index.jpg';
   }
 }
