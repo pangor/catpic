@@ -6,15 +6,16 @@
 library catpic;
 
 import 'dart:html';
-
+import 'package:web_ui/web_ui.dart';
 import 'package:kittens/kittens.dart';
-import 'package:widget/widget.dart';
 
-class Catpic extends Widget {
-  final String _url;
-
-  Catpic(int kitten)
-  : _url = getKitten(kitten % numKittens);
-
-  Element render() => new Element.html('<img src="$_url"></img>');
+class Catpic extends WebComponent {
+  int _kitten;
+  
+  void set kitten(String number) {
+    _kitten = int.parse(number);
+    attributes['src'] = getKitten(_kitten % numKittens);
+  }
+  
+  String get kitten => _kitten.toString();
 }
