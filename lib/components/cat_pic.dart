@@ -20,7 +20,7 @@ class Catpic extends WebComponent {
   String get kitten => _kitten.toString();
   
   String get _url {
-    int index = _kitten % num;
+    int index = _kitten % numPics;
     return 'packages/catpic/imgs/kitten-$index.jpg';
   }
 }
